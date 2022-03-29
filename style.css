@@ -1,0 +1,11 @@
+/*Color scheme*/
+#bootstrap-overrides .navbar-brand{  
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    
+}
+
+.nav-pills {
+    position: fixed;
+}
