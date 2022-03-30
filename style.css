@@ -1,11 +1,28 @@
-/*Color scheme*/
-#bootstrap-overrides .navbar-brand{  
+.navbar-brand{  
     
     font-family: 'Josefin Sans', sans-serif;
     font-size: x-large;
     
 }
+.tab-content {
+    padding-top: 15%;
+    padding-right: 25%;
+    padding-left: 25%;
+}
 
 .nav-pills {
     position: fixed;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #26a269;
+    color: #ffffff;
+    
+}
+.nav-pills .nav-link {
+  color: #424242;
+}
+.btn-primary.custom-btn {
+	background-color: #26a269;
+	border-color: #26a269;
 }
