@@ -11,7 +11,7 @@
 }
 
 .nav-pills {
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .nav-pills .nav-link.active {
@@ -22,7 +22,7 @@
 .nav-pills .nav-link {
   color: #424242;
 }
-.btn-primary.custom-btn {
+.btn-primary.btn-green {
 	background-color: #26a269;
 	border-color: #26a269;
 }
@@ -47,4 +47,31 @@
       right: 35%;
       left: 35%;
     border-radius: 5px;
+}
+
+.forum-col{
+    min-width: 256px;
+}
+
+.last-post-col{
+    min-width: 192px;
+}
+
+/*.ind{
+   
+    background-color: rgba(126, 126, 126, 0.351);
+    padding: 15px;
+}*/
+
+.forum{
+    background-color: rgba(126, 126, 126, 0.351);
+    color: rgb(66, 66, 66)!important;
+}
+.textolado{
+    font-size: small;
+}
+
+
+.tpading{
+    padding-top: 3%;
 }
