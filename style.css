@@ -44,8 +44,8 @@
       text-align: center;
       top:  70%;
       bottom: 0%;
-      right: 35%;
-      left: 35%;
+      right: 10%;
+      left: 10%;
     border-radius: 5px;
 }
 
@@ -73,5 +73,78 @@
 
 
 .tpading{
-    padding-top: 3%;
+    padding-top: 7%;
 }
+
+@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+	
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr { 
+			display: block; 
+		}
+		
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr { 
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		
+		tr { border: 1px solid #ccc; }
+		
+		td { 
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee; 
+			position: relative;
+			padding-left: 50%; 
+		}
+		
+		td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+		}
+		
+    }
+
+.carousel-inner > .carousel-item > .carousel-caption> h5, .carousel-inner > .carousel-item > .carousel-caption> p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
+}
+
+.carousel{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin:auto;
+  
+    
+}
+
+
+.carousel-caption {
+    top: 73px;
+    bottom: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
