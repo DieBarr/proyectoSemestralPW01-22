@@ -1,0 +1,155 @@
+.navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: x-large;
+}
+.tab-content {
+  padding-top: 15%;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.nav-pills {
+  /*position: fixed;*/
+}
+
+.nav-pills .nav-link.active {
+  background-color: #26a269;
+  color: #ffffff;
+}
+.nav-pills .nav-link {
+  color: #424242;
+}
+.btn-primary.btn-green {
+  background-color: #26a269;
+  border-color: #26a269;
+}
+.carrusel {
+  padding: 10%;
+}
+
+.tamimg {
+  display: table-cell;
+  height: 30%;
+  text-align: center;
+  width: 30%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.carousel-caption {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  color: rgba(255, 255, 255, 1) !important;
+  text-align: center;
+  top: 70%;
+  bottom: 0%;
+  right: 10%;
+  left: 10%;
+  border-radius: 5px;
+}
+.form-label {
+  font-weight: bold;
+}
+
+.forum-col {
+  min-width: 256px;
+}
+
+.last-post-col {
+  min-width: 192px;
+}
+
+/*.ind{
+   
+    background-color: rgba(126, 126, 126, 0.351);
+    padding: 15px;
+}*/
+
+.forum {
+  background-color: rgba(126, 126, 126, 0.351);
+  color: rgb(66, 66, 66) !important;
+}
+.textolado {
+  font-size: small;
+}
+
+.tpading {
+  padding-top: 7%;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+}
+
+.carousel-inner > .carousel-item > .carousel-caption > h5,
+.carousel-inner > .carousel-item > .carousel-caption > p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Añadir para conseguir el fondo con opacidad */
+}
+
+.carousel {
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.carousel-caption {
+  top: 73px;
+  bottom: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
