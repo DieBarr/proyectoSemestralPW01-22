@@ -1,7 +1,4 @@
 //En trabajo
-let changeToLogin = () => {
-  window.location.href = "login.html";
-};
 //Activar pills desde el menu de la navbar
 function triggerPill(registrarse) {
   if (registrarse) {

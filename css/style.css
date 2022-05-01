@@ -155,60 +155,59 @@
 }
 
 /* Con estos, las tablas mantienen cierto tamaño aún luego de minimizar al máximo la página */
-#first-forum-col{
+#first-forum-col {
   min-width: 16em;
 }
 
-#last-post-col{
+#last-post-col {
   min-width: 12em;
 }
 
-#nuevopost{
+#nuevopost {
   padding: 5px 0px 5px 10px;
   margin-top: 1%;
   max-width: 90%;
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-style: solid;
   border-color: #b2b6ba;
   border-width: 1px;
-
 }
-#nuevopostinput{
+#nuevopostinput {
   max-width: 30%;
   background-color: #e6e8ea;
 }
 
-#colorfondo{
-  background-color: #DAE0E6;
+#colorfondo {
+  background-color: #dae0e6;
 }
 
-#imagen-anime{
+#imagen-anime {
   max-width: 100%;
 }
 
-#titulo-carta{
+#titulo-carta {
   background-color: #26a269;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   border-radius: 3px 3px 0px 0px;
   font-size: medium;
 }
 
-#h-estilo1{
+#h-estilo1 {
   font-size: x-small;
-  
 }
-#h-estilo2{
+#h-estilo2 {
   font-size: small;
 }
 
-#sdaflkje3{
-  font-family: Noto Sans,Arial,sans-serif;
+#sdaflkje3 {
+  font-family: Noto Sans, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
 }
+
 
 .author-col{
   min-width: 12em !important;
