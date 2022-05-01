@@ -207,3 +207,34 @@
   font-weight: 400;
   line-height: 18px;
 }
+
+/* Styles que van en Crearpost.html */
+.btn-large{
+  margin-top: 5%;
+  font-size:150%;
+}
+
+.form-post{
+  background-color: #5d646b;
+  border-radius: 2%;
+  padding: 2%;
+}
+
+.label-post{
+  color:#ffffff;
+  font-size: 125%;
+  padding: 0.5%;
+}
+.h1-titulo{
+  padding-left:50px
+}
+
+.input-post{
+  padding: 1%;
+}
+.redondear{
+  background-color: #ffffff;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+/*----------------------------*/
