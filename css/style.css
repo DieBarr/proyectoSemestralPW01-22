@@ -209,3 +209,14 @@
   font-weight: 400;
   line-height: 18px;
 }
+
+.author-col{
+  min-width: 12em !important;
+}
+
+.post-col{
+  min-width: 20em !important;
+}
+#comment{
+  min-width: 20em !important;
+}
