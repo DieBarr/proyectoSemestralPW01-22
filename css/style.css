@@ -113,7 +113,7 @@
     top: 6px;
     left: 6px;
     width: 45%;
-    padding-right: 10px;
+    padding-right: 5%;
     white-space: nowrap;
   }
 }
@@ -125,12 +125,12 @@
 }
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  right: 0%;
+  top: 35%; /* Cambiar bottom por top y los píxeles que necesites */
+  left: 0%;
+  z-index: 0;
+  padding-top: 35%;
+  padding-bottom: 15%;
   color: #fff;
   text-align: center;
   background-color: rgba(
@@ -141,15 +141,15 @@
   ); /* Añadir para conseguir el fondo con opacidad */
 }
 
-.carousel {
-  width: 300px;
-  height: 150px;
-  margin-top: 50px;
-  margin: auto;
+#carrusel-index {
+  width: 90%;
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-right: 20% !important;
 }
 
 .carousel-caption {
-  top: 73px;
+  top: 15%;
   bottom: auto;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -249,3 +249,15 @@
   min-width: 20em !important;
 }
 
+#clima{
+  color:#ffffff;
+  padding: 3% !important;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  font-size: 140%;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 10%;
+  background-color: #26a269;
+}
