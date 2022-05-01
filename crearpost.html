@@ -25,6 +25,11 @@
     input{
       padding: 1%;
     }
+    .redondear{
+      background-color: #ffffff;
+      margin-top: 25px;
+      border-radius: 15px;
+    }
   </style>
 </head>
 
@@ -79,19 +84,27 @@
       <div class="col-md-2">
 
       </div>
-      <div class="col-md-8" style="background-color: #26a269; border-radius: 2%;">
+      <div class="col-md-8 col-sm-12" style="background-color: #26a269; border-radius: 15px; padding: 35px;">
+        <!--Datos para el formulario-->
         <label for="titulo">Titulo del Post</label>
         <input type="text" class="form-control" id="titulo" required>
+
         <label for="imagen">Agrega una imagen(opcional)</label>
         <input type="file" class="form-control" id="imagen_adj">
-        <label for="desc_post">Descripcion del Post</label>
+
+        <label for="desc_post">Descripcion</label>
         <textarea type="text" class="form-control" rows="5" id="desc_post"></textarea>
+
+        <!--submit para el formulario-->
         <button class="btn btn-primary" type="submit" style="margin-top: 20px; font-size: 23px;">Confirmar</button>
 
-        <div class="container-fluid">
-          <p id="text_vp"></p>
-          <img src="" id="img_vp" alt="">
-          <p id="desc_vp"></p>
+        <!--Para confirmar que los datos fueron enviados, se creó esta vista previa-->
+        <div class="container-fluid redondear">
+          <h1 id="vista_p">Vista Previa</h1>
+          <h2 id="text_vp" style="color:#26a269; font-weight: bold;"></h2>
+          <p id="img_vp"></p>
+          <h4 id="desc_vp"></h4>
+          <p id="com_area"></p>
         </div>
       </div>
       <div class="col-md-2">
