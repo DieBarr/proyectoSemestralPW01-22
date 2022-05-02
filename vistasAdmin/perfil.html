@@ -44,7 +44,7 @@
                   <p class="text-secundary mb-1">Anime/Videojuegos</p>
                   <p class="text-muted font-size-sm">Chile</p>
                   <button class="btn btn-primary btn-green">Seguir</button>
-                  <button class="btn btn-danger">Banear</button>
+                  <button class="btn btn-danger" id="ban_btn">Banear</button>
 
                 </div>
               </div>
@@ -75,7 +75,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-8">
           <div class="card">
             <div class="card-body">
                 <a href="#" class="text-decoration-none">
@@ -88,15 +88,16 @@
                   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,</p>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex flex-column align-items-center">
-                <p>No hay mas Post en este usuario..</p>
-
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex flex-column align-items-center">
+                  <p>No hay mas Post en este usuario..</p>
+  
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
         <div class="col-12 col-xl-3 tpading">
           <aside>
@@ -169,6 +170,17 @@
       crossorigin="anonymous"
     ></script>
   <script src="../js/bakaWeatherApi.js"></script>
+  <script>
+    $(document).ready(function (){
+      $("#ban_btn").click(function (){
+        if(confirm("¿Estas seguro/a de querer banear a este usuario?")){
+          $("#ban_btn").attr("href", "query.php?ACTION=delete&ID='1'");
+        }else{
+          return false;
+        }
+      });
+    });
+  </script>
 
   </body>
 </html>
