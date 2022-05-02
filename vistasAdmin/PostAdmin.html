@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
     
 </head>
 <body>
@@ -22,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <img src="resources/bakaNeko.svg" class="d-inline-block aling-top" width="30" href="index.html" height="30" alt="BakaNeko">
+            <img src="../resources/bakaNeko.svg" class="d-inline-block aling-top" width="30" href="index.html" height="30" alt="BakaNeko">
             <a class="navbar-brand" id="Logo" href="index.html">BakaNeko</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,51 +84,84 @@
           <div class="tab-content pt-4 p-5" id="nav-tabContent" >
             <div class="tab-pane active" id="hot">
               <div class="col-12 col-xl-12">
-                <table class="table table-striped table-bordered table-responsive mb-xl-3 table-light" id="ajustesTabla" >
+                <table class="table table-striped table-bordered table-responsive mb-xl-3 " id="ajustesTabla" >
                     <thead class="thead-light">
                         <tr>
                             <th scope="col">Autor</th>
                             <th scope="col">Mensaje</th>
-                            
+                            <th scope="col">Acciones</th>                            
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="author-col"> 
-                                <div><a href="#">Choche007</a></div>
+                                <div><a href="#" style="text-decoration: none;">Choche007</a></div>
                             </td>
                             <td class="post-col d-lg-flex justify-content">
                                 <div> <span class="fw-bold">Asunto </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora pariatur voluptas quo odio illum doloribus aliquid quis atque dolorum excepturi corporis repellat cum distinctio, sit inventore ab saepe, beatae quas.</div>
-                                <div> <span class="fw-bold">Posteado:</span> 07 Abril, 2022</div>
+                                <div> <span class="fw-bold">Posteado:</span> 07 Abril, 2022</div>                                
+                            </td>
+                            <td>
+                              <div> <button class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Eliminar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg>
+                                   </button>
+                              </div>
+
+                              <div>
+                                <button class="btn btn-success mt-1" data-toggle="tooltip" data-placement="top" title="Editar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg></button>
+                              </div>
                             </td>
                         </tr>
                         <tr>
                             <td> 
                                 <div> <span class="fw-bold">Ingreso:</span> <br> 15 Enero, 2022</div>
                                 <div> <span class="fw-bold">Posts:</span> <br> 10</div>
+                                
+                                
                             </td>
                             <td>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti maiores natus sit, numquam repellendus, nam cupiditate, nemo laudantium quas unde quos! Ullam odio cumque ex sint ducimus suscipit voluptatibus laborum!</p>
-                                <img src="resources/images/gatowo.jpg" alt="imagen" class="img-fluid">
+                                <img src="../resources/images/gatowo.jpg" alt="imagen" class="img-fluid">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus quos magnam quisquam iure similique excepturi magni reiciendis, eos illo consectetur voluptatum placeat unde ducimus reprehenderit odio fugiat doloremque nam!</p>
                                 
                             </td>
+                            <td></td>
                         </tr>
                     </tbody>
             
                 </table>
                     <!--Tabla 2-->
-                <table class="table table-striped table-bordered table-responsive mb-xl-3 table-light" id="tabla-post" >
+                <table class="table table-striped table-bordered table-responsive mb-xl-3 table-" id="tabla-post" >
                     
                     <tbody>
                         <tr>
                             <td class="author-col"> 
-                                <div><a href="#">Choche007</a></div>
+                                <div><a href="#" style="text-decoration: none;">Choche007</a></div>
                             </td>
                             <td class="post-col d-lg-flex justify-content">
                                 <div> <span class="fw-bold">Respuesta a: </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora pariatur voluptas quo odio illum doloribus aliquid quis atque dolorum excepturi corporis repellat cum distinctio, sit inventore ab saepe, beatae quas.</div>
                                 <div> <span class="fw-bold">Posteado:</span> 07 Abril, 2022</div>
                             </td>
+                            <td>
+                              <div> 
+                              <button class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Eliminar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                              <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg></button>
+                            </div>
+
+                            <div>
+                              <button class="btn btn-success mt-1" data-toggle="tooltip" data-placement="top" title="Editar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                              </svg></button>
+                            </div>
+                            
+                          
+                          </td>                            
                         </tr>
                         <tr>
                             <td> 
@@ -141,6 +174,8 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus quos magnam quisquam iure similique excepturi magni reiciendis, eos illo consectetur voluptatum placeat unde ducimus reprehenderit odio fugiat doloremque nam!</p>
                                 
                             </td>
+                            <td></td>
+                            
                         </tr>
                     </tbody>
             

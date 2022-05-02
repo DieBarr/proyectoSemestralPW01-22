@@ -260,3 +260,29 @@ h.navbar-brand {
   border-radius: 10%;
   background-color: #26a269;
 }
+
+#tabla-post{
+  width: 80%;
+  background-color: #f3f3f3 !important;
+  border-right: 3px solid rgba(141, 141, 141, 0.383);
+
+  border-left: 3px solid rgba(141, 141, 141, 0.383);
+
+
+}
+
+#ajustesTabla{
+
+  border-right: 1px solid rgba(58, 58, 58, 0.383);
+  border-bottom: 2px solid rgba(58, 58, 58, 0.383);
+  border-left: 1px solid rgba(58, 58, 58, 0.383);
+  border-top: 1px solid rgba(58, 58, 58, 0.383);
+  background-color: rgba(222, 222, 222, 0.51);
+
+}
+#titulo-carta{
+  background-color: #26a269 !important;
+  text-align: center !important;
+  color: #ffffff;
+  border-radius: 3px 3px 0px 0px;
+}
