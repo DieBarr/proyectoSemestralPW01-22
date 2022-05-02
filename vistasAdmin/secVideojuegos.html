@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>BakaNeko-Anime</title>
+    <title>BakaNeko</title>
+
     <!-- a -->
     <!--Stylesheets-->
     <!-- Bootsrap-->
@@ -13,6 +14,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
     <!--Fonts-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,12 +23,11 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-
+    <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-    <!-------NavBar-->
+    <!--NavBar-->
     <div id="nav-placeholder"></div>
     <script>
       $(function () {
@@ -34,10 +35,10 @@
       });
     </script>
 
-    <div id="fondo">
+    <div id="colorfondo">
       <div>
         <img
-          src="resources/images/foto-anime.jpg"
+          src="../resources/images/foto-videojuego.jpg"
           alt="anime"
           id="imagen-anime"
         />
@@ -47,6 +48,8 @@
         <!-- *****Bread Crumb******-->
 
         <div class="container">
+          <!-- Nav Pills -->
+
           <!-- Nav Pills -->
 
           <div class="row">
@@ -71,7 +74,7 @@
                 <a
                   class="nav-link active"
                   id="crearpostAnime"
-                  href="nuevoPost.html"
+                  href="crearpost.html"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,11 +96,12 @@
               </div>
 
               <!-- *****POSTEOS******-->
+
               <div class="tab-content pt-4 p-5" id="nav-tabContent">
                 <div class="tab-pane active" id="hot">
                   <table
                     class="table table-striped table-bordered table-responsive"
-                    id="tabla-post"
+                    id="tabla-post-videojuegos"
                   >
                     <thead class="thead-light forum">
                       <tr>
@@ -117,117 +121,182 @@
                         >
                           Posteador original
                         </th>
+                        <th scope="col">Acciones</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>
-                          <h3 class="h5 mb-0">
-                            <a href="#" class="text-decoration-none"
-                              >Post-capitalismo del medioambiente y la
-                              influencia sociopolítica de "El Lorax"</a
-                            >
-                          </h3>
-                          <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Soluta maxime quod aperiam cupiditate quisquam
-                            beatae voluptates, quo blanditiis veniam, ratione
-                            nesciunt consequatur sit quia quasi commodi amet
-                            fuga vitae in?
-                          </p>
-                        </td>
-                        <td>
-                          <div>9</div>
-                        </td>
-                        <td>
-                          <div>30</div>
-                        </td>
-                        <td>
-                          <h4 class="h6 mb-0">
-                            <a href="#" class="text-decoration-none">Anime</a>
-                          </h4>
-                          <div>
-                            por
-                            <a href="#" class="text-decoration-none"
-                              >Choche007</a
-                            >
-                          </div>
-                          <div>01 Abr 2022, 04:20</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h3 class="h5 mb-0">
-                            <a href="#" class="text-decoration-none"
-                              >Post-capitalismo del medioambiente y la
-                              influencia sociopolítica de "El Lorax"</a
-                            >
-                          </h3>
-                          <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Soluta maxime quod aperiam cupiditate quisquam
-                            beatae voluptates, quo blanditiis veniam, ratione
-                            nesciunt consequatur sit quia quasi commodi amet
-                            fuga vitae in?
-                          </p>
-                        </td>
-                        <td>
-                          <div>9</div>
-                        </td>
-                        <td>
-                          <div>30</div>
-                        </td>
-                        <td>
-                          <h4 class="h6 mb-0">
-                            <a href="#" class="text-decoration-none">Anime</a>
-                          </h4>
-                          <div>
-                            por
-                            <a href="#" class="text-decoration-none"
-                              >Choche007</a
-                            >
-                          </div>
-                          <div>01 Abr 2022, 04:20</div>
-                        </td>
-                      </tr>
 
-                      <tr>
-                        <td>
-                          <h3 class="h5 mb-0">
-                            <a href="#" class="text-decoration-none"
-                              >Post-capitalismo del medioambiente y la
-                              influencia sociopolítica de "El Lorax"</a
-                            >
-                          </h3>
-                          <p class="mb-0">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Soluta maxime quod aperiam cupiditate quisquam
-                            beatae voluptates, quo blanditiis veniam, ratione
-                            nesciunt consequatur sit quia quasi commodi amet
-                            fuga vitae in?
-                          </p>
-                        </td>
-                        <td>
-                          <div>9</div>
-                        </td>
-                        <td>
-                          <div>30</div>
-                        </td>
-                        <td>
-                          <h4 class="h6 mb-0">
-                            <a href="#" class="text-decoration-none">Anime</a>
-                          </h4>
-                          <div>
-                            por
-                            <a href="#" class="text-decoration-none"
-                              >Choche007</a
-                            >
-                          </div>
-                          <div>01 Abr 2022, 04:20</div>
-                        </td>
-                      </tr>
-                    </tbody>
+                  <tr>
+                    <td>
+                      <h3 class="h5 mb-0 "> <a href="#" class="text-decoration-none">Genshin Impact > Breath of the
+                          Wild?</a>
+                      </h3>
+                      <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, odio quod
+                        amet sed placeat dolorem enim recusandae vero pariatur ex architecto quasi nemo vitae hic ut
+                        quos!
+                        Ut, amet.</p>
+                    </td>
+                    <td>
+                      <div>2</div>
+                    </td>
+                    <td>
+                      <div>
+                        15
+                      </div>
+                    </td>
+                    <td>
+                      <h4 class="h6 mb-0 "><a href="#" class="text-decoration-none">Videojuegos</a></h4>
+                      <div>
+                        by <a href="perfil.html" class="text-decoration-none">ElXokas</a>
+                        <div> 02 Abr 2022, 11:20</div>
+                        
+                      </div>
+                      <td>
+                        <div> <button class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg>
+                                   </button>
+                              </div>
+                              <div>
+                                <button class="btn btn-success mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg></button>
+                              </div>
+                      </td>
+                    </td>
+                  </tr>
+ 
+
+                  <tr>
+                    <td>
+                      <h3 class="h5 mb-0 "> <a href="#" class="text-decoration-none">Genshin Impact > Breath of the
+                          Wild?</a>
+                      </h3>
+                      <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, odio quod
+                        amet sed placeat dolorem enim recusandae vero pariatur ex architecto quasi nemo vitae hic ut
+                        quos!
+                        Ut, amet.</p>
+                    </td>
+                    <td>
+                      <div>2</div>
+                    </td>
+                    <td>
+                      <div>
+                        15
+                      </div>
+                    </td>
+                    <td>
+                      <h4 class="h6 mb-0 "><a href="#" class="text-decoration-none">Videojuegos</a></h4>
+                      <div>
+                        by <a href="perfil.html" class="text-decoration-none">ElXokas</a>
+                        <div> 02 Abr 2022, 11:20</div>
+                        
+                      </div>
+                      <td>
+                        <div> <button class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg>
+                                   </button>
+                              </div>
+                              <div>
+                                <button class="btn btn-success mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg></button>
+                              </div>
+                      </td>
+                    </td>
+                  </tr>
+ 
+
+                  <tr>
+                    <td>
+                      <h3 class="h5 mb-0 "> <a href="#" class="text-decoration-none">Genshin Impact > Breath of the
+                          Wild?</a>
+                      </h3>
+                      <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, odio quod
+                        amet sed placeat dolorem enim recusandae vero pariatur ex architecto quasi nemo vitae hic ut
+                        quos!
+                        Ut, amet.</p>
+                    </td>
+                    <td>
+                      <div>2</div>
+                    </td>
+                    <td>
+                      <div>
+                        15
+                      </div>
+                    </td>
+                    <td>
+                      <h4 class="h6 mb-0 "><a href="#" class="text-decoration-none">Videojuegos</a></h4>
+                      <div>
+                        by <a href="perfil.html" class="text-decoration-none">ElXokas</a>
+                        <div> 02 Abr 2022, 11:20</div>
+                        
+                      </div>
+                      <td>
+                        <div> <button class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg>
+                                   </button>
+                              </div>
+                              <div>
+                                <button class="btn btn-success mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg></button>
+                              </div>
+                      </td>
+                    </td>
+                  </tr>
+ 
+
+
+                  <tr>
+                    <td>
+                      <h3 class="h5 mb-0 "> <a href="#" class="text-decoration-none">Genshin Impact > Breath of the
+                          Wild?</a>
+                      </h3>
+                      <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque tenetur, odio quod
+                        amet sed placeat dolorem enim recusandae vero pariatur ex architecto quasi nemo vitae hic ut
+                        quos!
+                        Ut, amet.</p>
+                    </td>
+                    <td>
+                      <div>2</div>
+                    </td>
+                    <td>
+                      <div>
+                        15
+                      </div>
+                    </td>
+                    <td>
+                      <h4 class="h6 mb-0 "><a href="#" class="text-decoration-none">Videojuegos</a></h4>
+                      <div>
+                        by <a href="perfil.html" class="text-decoration-none">ElXokas</a>
+                        <div> 02 Abr 2022, 11:20</div>
+                        
+                      </div>
+                      <td>
+                        <div> <button class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                              </svg>
+                                   </button>
+                              </div>
+                              <div>
+                                <button class="btn btn-success mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg></button>
+                              </div>
+                      </td>
+                    </td>
+                  </tr>
+ 
+		    </tbody>
                   </table>
+
                   <!-- Cambiar página-->
                 </div>
                 <div class="mb-3 clearfix mt-1">
@@ -271,11 +340,11 @@
                           Sobre la comunidad
                         </h2>
                         <div class="card-body">
-                          <h1 class="h6">Comunidad de anime de BakaNeko UwU</h1>
-                          <h1 class="h6" id="h-estilo2">+50k</h1>
-                          <h1 class="h6" id="h-estilo1">
-                            Otakus que no se han bañado
+                          <h1 class="h6">
+                            Comunidad de videojuegos de BakaNeko
                           </h1>
+                          <h1 class="h6" id="h-estilo2">+100k</h1>
+                          <h1 class="h6" id="h-estilo1">Gamers</h1>
                         </div>
                         <div class="card-footer">
                           <h1 class="h2" id="sdaflkje3">
@@ -292,7 +361,7 @@
                                 d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z"
                               />
                             </svg>
-                            Creada el 16 Enero, 2015
+                            Creada el 20 Enero, 2015
                           </h1>
                         </div>
                       </div>
@@ -457,6 +526,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <script src="js/navScripts.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

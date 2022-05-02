@@ -64,7 +64,7 @@ h.navbar-brand {
 }*/
 
 .forum {
-  background-color: rgba(126, 126, 126, 0.351);
+  background-color: #eeeeee;
   color: rgb(66, 66, 66) !important;
 }
 .textolado {
@@ -174,7 +174,7 @@ h.navbar-brand {
   border-width: 1px;
 }
 #fondo {
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 #crearpostAnime {
   color: #26a269;
@@ -248,8 +248,8 @@ h.navbar-brand {
   min-width: 20em !important;
 }
 
-#clima{
-  color:#ffffff;
+#clima {
+  color: #ffffff;
   padding: 3% !important;
   margin-top: 5%;
   margin-left: 20%;
@@ -286,3 +286,4 @@ h.navbar-brand {
   color: #ffffff;
   border-radius: 3px 3px 0px 0px;
 }
+
