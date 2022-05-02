@@ -110,8 +110,8 @@
                       </tbody>
                     </table>
                     <div class="mb-3 clearfix mt-1">
-                      <form class="mb-3">
-                        <div class="from-group mb-2">
+                      <form class="mb-3" method="post" id="form-com">
+                        <div class="form-group mb-2">
                           <label for="comment">Responde a este post:</label>
                           <textarea
                             class="form-control w-100"
@@ -187,13 +187,13 @@
 
                   <!-- Cambiar página-->
                 </div>
-                <form class="mb-3">
-                  <div class="from-group mb-2">
-                    <label for="comment">Responde a este comentario:</label>
+                <form class="mb-3" method="post" id="form-resp">
+                  <div class="form-group mb-2">
+                    <label for="comment-resp">Responde a este comentario:</label>
                     <textarea
                       class="form-control w-75"
                       name="postear"
-                      id="comment"
+                      id="comment-resp"
                       rows="2"
                       placeholder="Escribe tu comentario aquí."
                       required
@@ -406,6 +406,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script src="js/scriptComentario.js"></script>
   </body>
 </html>
