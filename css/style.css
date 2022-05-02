@@ -1,4 +1,4 @@
-.navbar-brand {
+h.navbar-brand {
   font-family: "Josefin Sans", sans-serif;
   font-size: x-large;
 }
@@ -173,24 +173,23 @@
   border-color: #b2b6ba;
   border-width: 1px;
 }
-#nuevopostinput {
-  max-width: 30%;
-  background-color: #e6e8ea;
+#fondo {
+  background-color: #eeeeee;
 }
-
-#colorfondo {
-  background-color: #dae0e6;
+#crearpostAnime {
+  color: #26a269;
+  background-color: #ffffff;
 }
-
 #imagen-anime {
   max-width: 100%;
 }
 
-#titulo-carta {
-  background-color: #26a269;
-  color: #ffffff;
+.postear {
+  background-color: #ffffff;
+  color: #121212;
+  padding: 1%;
   text-align: center;
-  border-radius: 3px 3px 0px 0px;
+  border-radius: 5px;
   font-size: medium;
 }
 
@@ -208,44 +207,43 @@
   line-height: 18px;
 }
 /* Styles que van en Crearpost.html */
-.btn-large{
-  margin-top: 5%;
-  font-size:150%;
+.btn-large {
+  margin: 2%;
+  font-size: 120%;
 }
 
-.form-post{
+.form-post {
   background-color: #5d646b;
   border-radius: 2%;
   padding: 2%;
 }
 
-.label-post{
-  color:#ffffff;
+.label-post {
+  color: #ffffff;
   font-size: 125%;
   padding: 0.5%;
 }
-.h1-titulo{
-  padding-left:50px
+.h1-titulo {
+  padding-left: 50px;
 }
 
-.input-post{
+.input-post {
   padding: 1%;
 }
-.redondear{
+.redondear {
   background-color: #ffffff;
   margin-top: 25px;
   border-radius: 15px;
 }
 /*----------------------------*/
 
-.author-col{
+.author-col {
   min-width: 12em !important;
 }
 
-.post-col{
+.post-col {
   min-width: 20em !important;
 }
-#comment{
+#comment {
   min-width: 20em !important;
 }
-
